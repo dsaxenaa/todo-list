@@ -1,0 +1,32 @@
+/* .message{
+    background-color: rgba(224, 201, 166);
+} */
+/* .centered {
+    height: 100px; /* Magic here */
+    /* width:240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */ 
+  .message{
+    background-color: #F0E4D3;
+    width: 260px;
+    margin: 10px auto;
+    margin-top: 20px;
+    text-align: center;
+    /* background-color: #fff; */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.1);
+  } 
+
+  .cardd{
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 65%;
+    background-image: url('todo.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 0 5%;
+    position: relative;
+}

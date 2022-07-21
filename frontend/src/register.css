@@ -1,0 +1,96 @@
+/* .card {
+	/* margin: 2rem auto; */
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* width: 100%; */
+	/* max-width: 425px; */
+	/* background-color: #FFF; */
+	/* border-radius: 10px; */
+	/* box-shadow: 0 10px 20px 0 rgba(#999, .25); */
+	/* padding: 1rem; */
+
+
+/* .message{
+    /* background-color: #F0E4D3; */
+    /* width: 260px; */
+    /* margin: 10px auto; */
+    /* margin-top: 100px; */
+    /* text-align: center; */
+    /* background-color: #fff; */
+    /* padding: 15px; */
+    /* border-radius: 5px; */
+    /* box-shadow: 0 2px 2px rgba(0,0,0,.1); */
+
+    .card-image {
+        border-radius: 8px;
+        overflow: hidden;
+        padding-bottom: 65%;
+        background-image: url('card.jpg');
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-position: 0 5%;
+        position: relative;
+    }
+    
+    
+
+   
+    label {
+        order: -1;
+        padding-left: 5px;
+        transition: all 0.3s ease-in;
+        transform: translateY(20px);
+        background-color: transparent;
+        pointer-events: none;
+        /* position: absolute; */
+      }
+      input:focus + label {
+        transform: translateY(-2px);
+        color: rgba(300, 99, 91, 0.5)
+      }
+      .field {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      @media (min-width:1025px) and (min-width:1281px) {
+        ::-webkit-input-placeholder {
+           /* WebKit browsers */
+            color: transparent;
+       }
+        :-moz-placeholder {
+           /* Mozilla Firefox 4 to 18 */
+            color: transparent;
+       }
+        ::-moz-placeholder {
+           /* Mozilla Firefox 19+ */
+            color: transparent;
+       }
+        :-ms-input-placeholder {
+           /* Internet Explorer 10+ */
+            color: transparent;
+       }
+        input::placeholder {
+            color: transparent;
+       }
+        textarea::-webkit-input-placeholder {
+           /* WebKit browsers */
+            color: transparent;
+       }
+        textarea:-moz-placeholder {
+           /* Mozilla Firefox 4 to 18 */
+            color: transparent;
+       }
+        textarea::-moz-placeholder {
+           /* Mozilla Firefox 19+ */
+            color: transparent;
+       }
+        textarea:-ms-input-placeholder {
+           /* Internet Explorer 10+ */
+            color: transparent;
+       }
+        textarea::placeholder {
+            color: transparent;
+       }
+   }
